@@ -9,7 +9,9 @@
 
 ## 演示视频
 
-
+<video id="video" controls="" preload="none" poster="封面">
+      <source id="mp4" src="https://github.com/timerring/face-recognition-door/blob/main/video/presentation.mp4" type="video/mp4">
+</videos>
 
 ## 运行环境
 
