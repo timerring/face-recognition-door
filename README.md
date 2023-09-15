@@ -9,9 +9,9 @@
 
 ## 演示视频
 
-<video src="https://github.com/timerring/face-recognition-door/blob/main/video/presentation.mp4" controls>
-  你的浏览器不支持 <code>video</code> 标签。
-</video>
+<iframe      src="https://github.com/timerring/face-recognition-door/blob/main/video/presentation.mp4"     width="800"      height="450"      frameborder="0"      allowfullscreen> </iframe>
+
+
 
 ## 运行环境
 
