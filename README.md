@@ -9,14 +9,7 @@
 
 ## 演示视频
 
-<iframe 
-    src="https://www.bilibili.com/video/BV1jh4y1N7q2"
-    width="800" 
-    height="450" 
-    frameborder="0" 
-    allowfullscreen>
-</iframe>
-
+https://github.com/timerring/face-recognition-door/blob/main/video/presentation.mp4
 
 
 
