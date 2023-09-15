@@ -36,38 +36,38 @@ https://github.com/timerring/face-recognition-door/blob/main/video/presentation.
 
 ```
 .
-|-- LICENSE													# 项目LICENSE
-|-- README.md												# README
-|-- docs													# 设计文档与总结文档
+|-- LICENSE					# 项目LICENSE
+|-- README.md				# README
+|-- docs					# 设计文档与总结文档
 |   |-- design.docx
 |   |-- face-recognition-door.md
 |   `-- summarize.docx
-|-- pics													# 项目流程图、硬件图及调用图
+|-- pics					# 项目流程图、硬件图及调用图
 |   |-- flowchart.jpg
 |   |-- flowchart.vsdx
 |   |-- hardware.png
 |   `-- pycallgraph.png
 |-- public
-|   |-- SD													# SD卡保存内容
+|   |-- SD					# SD卡保存内容
 |   |   `-- faceinfo.txt
-|   |-- firmware											# K210固件
+|   |-- firmware			# K210固件
 |   |   |-- key_gen_v1.2.bin
 |   |   `-- maixpy_v0.6.2_27_g4d8d4fbf0_minimum_with_ide_support.bin
-|   `-- model												# 加密后的模型文件
+|   `-- model				# 加密后的模型文件
 |       |-- FaceDetection.smodel
 |       |-- FaceLandmarkDetection.smodel
 |       |-- FeatureExtraction.smodel
 |       `-- main.py
-|-- slides													# 设计slide与总结slide
+|-- slides					# 设计slide与总结slide
 |   |-- design.pptx
 |   `-- summarize.pptx
-|-- software												# 软件
+|-- software				# 软件
 |   |-- XCOM V2.3.exe
 |   |-- dotNetFx40_Full_x86_x64.exe
 |   |-- kflash_gu_v1.6.5_2.rar
 |   `-- maixpy-ide-windows-0.2.5.exe
-|-- utils													# 工具模块类
-|   |-- STM32												# STM32主控模块
+|-- utils					# 工具模块类
+|   |-- STM32				# STM32主控模块
 |   |   |-- CORE
 |   |   |   |-- core_cm3.c
 |   |   |   |-- core_cm3.h
@@ -163,10 +163,10 @@ https://github.com/timerring/face-recognition-door/blob/main/video/presentation.
 |   |   |   |-- system_stm32f10x.c
 |   |   |   `-- system_stm32f10x.h
 |   |   `-- keilkilll.bat
-|   `-- temperature_measurement_and_voice.py					# 附加测温与语音播报模块
+|   `-- temperature_measurement_and_voice.py	# 附加测温与语音播报模块
 |-- video
-|   `-- presentation.mp4										# 演示视频
-`-- yolov2_face_recognition_access_control.py					# 系统代码
+|   `-- presentation.mp4						# 演示视频
+`-- yolov2_face_recognition_access_control.py	# 系统代码
 ```
 
 ## Tips
