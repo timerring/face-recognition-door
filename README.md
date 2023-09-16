@@ -5,7 +5,11 @@
 
 ## 简介
 
-该系统通过对人脸图像进行采集变换与分析，综合传感器、蓝牙和RFID进行验证逻辑设计与处理，数据采集模块采用YOLO算法特征提取并且与存储的特征值进行比对验证，人脸信息录入模块将人员信息与人脸特征值进行关联并实现断电存储，人脸蓝牙RFID综合验证模块接收蓝牙数据，根据收到的数据执行相应的注册、删除、临时开启以及清空等操作，结合RFID技术，增加了多种权限的门禁认证，此外检测到无人时会进入休眠模式节能。
+该系统通过对人脸图像进行采集变换与分析，综合传感器、蓝牙和RFID进行验证逻辑设计与处理。
+
++ **数据采集模块**采用YOLO算法特征提取并且与存储的特征值进行比对验证
++ **人脸信息录入模块**将人员信息与人脸特征值进行关联并实现断电存储
++ **人脸蓝牙RFID综合验证模块**接收蓝牙数据，根据收到的数据执行相应的注册、删除、临时开启以及清空等操作，结合RFID技术，增加了多种权限的门禁认证，此外检测到无人时会进入休眠模式节能。
 
 ## 演示视频
 
@@ -20,6 +24,7 @@ https://github.com/timerring/face-recognition-door/assets/89397553/e4a628ac-b204
 - 开发环境：MaixPy IDE
 - 烧录环境：kflash_gui
 - 串口调试环境：XCOM
+- 器件：K210，DVP摄像头，LED显示屏，HC-SR501人体红外感应传感器，SG90舵机，高水平触发蜂鸣器，RFID射频模块，4位独立按键，STM32（可选）。
 - Windows11
 
 ## 快速使用
@@ -71,7 +76,7 @@ https://github.com/timerring/face-recognition-door/assets/89397553/e4a628ac-b204
 |   |-- kflash_gu_v1.6.5_2.rar
 |   `-- maixpy-ide-windows-0.2.5.exe
 |-- utils				# 工具模块类
-|   |-- STM32				# STM32主控模块
+|   |-- STM32				# STM32主控模块（若加测温和语音播报可选用STM32通信）
 |   |   |-- CORE
 |   |   |   |-- core_cm3.c
 |   |   |   |-- core_cm3.h
@@ -177,7 +182,6 @@ https://github.com/timerring/face-recognition-door/assets/89397553/e4a628ac-b204
 
 1. 如果存在疑问或发现错误，欢迎提Issues交流订正。
 2. 如果遇到图片无法加载的情况，可以考虑使用代理，或者访问[博客网站](https://blog.csdn.net/m0_52316372) 。
-3. 如果发现Tex数学公式展示异常，可以安装插件[GitHub Math Display](https://chrome.google.com/webstore/detail/github-math-display/cgolaobglebjonjiblcjagnpmdmlgmda?hl=zh-CN)，安装后启用插件，刷新网页即可。也可以下载后本地软件打开。
 
 ## License
 
