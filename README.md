@@ -9,7 +9,11 @@
 
 ## 演示视频
 
-https://github.com/timerring/face-recognition-door/blob/main/video/presentation.mp4
+
+
+https://github.com/timerring/face-recognition-door/assets/89397553/e4a628ac-b204-4f62-95e5-d381b007f0a9
+
+
 
 ## 运行环境
 
